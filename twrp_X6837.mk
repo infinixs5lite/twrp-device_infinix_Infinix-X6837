@@ -4,15 +4,15 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from Infinix-X6837 device
-$(call inherit-product, device/infinix/Infinix-X6837/device.mk)
+# Inherit from X6837 device
+$(call inherit-product, device/infinix/X6837/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Product Specifics
 PRODUCT_NAME := twrp_X6837
-PRODUCT_DEVICE := Infinix-X6837
+PRODUCT_DEVICE := X6837
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X6837
 PRODUCT_MANUFACTURER := INFINIX
